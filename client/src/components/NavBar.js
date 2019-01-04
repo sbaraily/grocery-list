@@ -8,6 +8,9 @@ const NavBar = () => (
     <NavLink activeStyle={styles.active} to='/about'>About</NavLink>
     {' '}
     <NavLink activeStyle={styles.active} to='/items'>Item List</NavLink>
+    {' '}
+    <NavLink activeStyle={styles.active} to='/item'>**Item**</NavLink>
+
   </nav>
 )
 
